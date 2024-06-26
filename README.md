@@ -23,6 +23,12 @@ Fuse-devel
 Gpgme-devel
 Libgcrypt-devel
 
+Additionally, go in 
+```
+KDE-AppImage-Thumbnailer/build/AppImageKit-prefix/src/AppImageKit-build/lib/libappimage/squashfuse-EXTERNAL-prefix/src/squashfuse-EXTERNAL/ll.c
+```
+and add `#include <unistd.h>`
+
 ## Build 
 ```
 cd AppImageThumbs
