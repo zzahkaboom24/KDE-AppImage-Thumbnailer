@@ -12,7 +12,16 @@ The following libraries and development packages are needed:
 KDE >=5.2.x
 QT  >=5.2.x
 LibAppImage >= 1.0
-
+Automake
+Libtool
+Vim-common
+Glib2-devel
+Cairo-devel
+Fuse
+Fuse-libs
+Fuse-devel
+Gpgme-devel
+Libgcrypt-devel
 
 ## Build 
 ```
